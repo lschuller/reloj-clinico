@@ -1,5 +1,5 @@
 {
-  "name": "siux-studio-next-js",
+  "name": "siux-studio-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@siuxco/design-system": "^0.0.6-test-tooltip-display-name.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.31.0",
-    "eslint-config-next": "^13.1.1"
+    "@siuxco/design-system": "^1.0.6",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
   }
 }

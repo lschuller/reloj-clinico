@@ -27,27 +27,13 @@ npm run dev
 http://localhost:3000
 ```
 
-
 ## Installation
 
-Integrate your brand styles by replacing the following lines of code on `pages/_document.js` with your brand settings.
-
-```html
-<link href="https://cdn.siux.studio/static/brand/64394f6e1a3d72c0b2b6a4c5/latest/siux.main.css" type="text/css" rel="stylesheet"/>
-<link href="https://cdn.siux.studio/static/brand/64394f6e1a3d72c0b2b6a4c5/latest/siux.main.responsive.css" type="text/css" rel="stylesheet"/>
-```
+Integrate your brand styles by replacing the files on `public/siux/` with your brand assets.
 
 ## Development
 
-Edit the page by modifying `pages/index.js`. The page auto-updates as you edit the file. The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/) from the creators of [Next.js](https://nextjs.org/).
-
-## API Routes
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages. This endpoint can be edited in `pages/api/hello.js`.
-
-```bash
-http://localhost:3000/api/hello
-```
+Edit the page by modifying `src/page.js`. The page auto-updates as you edit the file. The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/) from the creators of [Next.js](https://nextjs.org/).
 
 ## Deploy to Vercel
 
