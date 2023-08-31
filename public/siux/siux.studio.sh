@@ -20,7 +20,7 @@
 		
 		URL="https://app.siux.studio"
 		
-		FINAL_DATA="{\"brand\": {\"brandId\": \"632213d5a467b1178b31dde0\", \"version\": \"0.0.1\"}, \"apiKey\": \"$SIUX_STUDIO_API_KEY\"}"
+		FINAL_DATA="{\"brand\": {\"brandId\": \"64e7ea51fce9cff6a59975a5\", \"version\": \"0.0.2\"}, \"apiKey\": \"$SIUX_STUDIO_API_KEY\"}"
 		
 		status=$(curl -w '\n%{http_code}' -vX POST "${URL}/api/v1/brands/package" -o "siux.studio.tar.gz" -d "$FINAL_DATA" --header "Content-Type: application/json")
 		
